@@ -10,6 +10,8 @@
     <NAME.LIST TYPE="String">
       <NAME COLUMNREFERENCE="C"/>
     </NAME.LIST>
+    <DUMMY>abc</DUMMY>
+    <DUMMY1>abcd</DUMMY1>
     <PARENT ALERT="=if(len(trim(B#))=0,&quot;&quot;,if(__MATCH(B#,VOUCHERTYPELIST),&quot;&quot;,&quot;Invalid VoucherType:  &quot; &amp; B#))" ALERTREFERENCE="B#" COLUMNREFERENCE="B"/>
     <!-- Is deemed positive not required -->
     <NUMBERINGMETHOD>Manual</NUMBERINGMETHOD>
